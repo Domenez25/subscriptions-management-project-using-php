@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <table>
+        <td style="width: 50%; height: 100%;">
+    <img src="pictures/oran.JPG"></td>
+    <td style="width: 50%;">
+    <form action="register.php" method="post">
+        <h2>Registration Form</h2>
+        <div style="display: flex;">
+            <label for="fullName">Full Name:</label>
+            <input class="texts" type="text" id="fullName" name="fullName" required>
+        </div>
+        <div style="display: flex;">
+            <label for="dateOfBirth">Date of Birth:</label>
+            <input class="texts" type="date" id="dateOfBirth" name="dateOfBirth" required>
+        </div>
+        <div style="display: flex;">
+            <label for="phoneNumber">Phone Number:</label>
+            <input class="texts" type="tel" id="phoneNumber" name="phoneNumber" required>
+        </div>
+        <div style="display: flex;">
+            <label for="email">Email:</label>
+            <input class="texts" type="email" id="email" name="email" required>
+        </div>
+        <div style="display: flex;">
+            <label for="address">Address:</label>
+            <textarea class="texts" id="address" name="address" required></textarea>
+        </div>
+        <div style="display: flex;">
+            <label for="category">Category:</label>
+            <select class="texts" id="category" name="category">
+                <option value="employer">Employer</option>
+                <option value="retired">Retired</option>
+                <option value="student">Student</option>
+                <option value="eleve">Eleve</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div style="display: flex;">
+            <label for="password">Password:</label>
+            <input class="texts" type="password" id="password" name="password" required>
+        </div>
+
+        <div style="display: flex;">
+            <input style="margin-top: 0;" type="checkbox" id="agree" name="agree" required>
+            <label style="font-size: 22px; margin: 0 0 0 10px;" for="agree">I agree to the terms and conditions</label>
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</td></table>
+</body>
+
+</html>
