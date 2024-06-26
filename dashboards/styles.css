@@ -1,0 +1,237 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    height: 100vh; 
+}
+
+#top-bar {
+    background-color: #174282;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+#top-bar h1 , #top-bar h4 {
+    margin: 0 10px;
+}
+
+#left-panel {
+    position: absolute;
+    background-color: #d4fffd;
+    box-shadow: 0 0 5px black;
+    color: #222;
+    padding: 20px;
+    width: 17%;
+    min-width: 200px;
+    float: left;
+    height: 84%; 
+}
+
+.objects {
+    position: absolute;
+    top: 0;
+    width: 88%;
+}
+.misc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.misc a {
+    margin-top: 5%;
+    margin-bottom: 0;
+    color: #174282;
+}
+
+#main-content {
+    display: block;
+    width: 80%;
+    height: auto;
+    float: right;
+    padding: 10px;
+}
+
+.page-link {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.link-sections {
+    text-decoration: none;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.page-link:hover {
+    text-decoration: underline;
+}
+
+/******************/
+
+.content-section {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px; 
+    margin-bottom: 20px;
+}
+
+p {
+    display: inline-block; 
+    margin-bottom: 12px;
+    font-size: 18px; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.profile-data {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title * {
+    margin: 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    align-self: flex-end;
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+textarea {
+    resize: vertical;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] , select , .adding-file, #toggleSortButton {
+    background-color: #174282;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    padding: 8px 18px;
+    margin-bottom: 0;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-self: flex-end;
+}
+
+.adding-file {
+    padding: 8px 0;
+}
+
+input[type="submit"]:hover , .adding-file:hover , #toggleSortButton:hover {
+    background-color: #05b4ac;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.sort {
+    cursor: pointer;
+}
+.sort:hover {
+    background-color: #999;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #666;
+    align-self: flex-start;
+}
+    
+.note {
+    color: #666;
+    font-size: 16px;
+    text-align: center;
+}
+
+.radiodemand {
+    margin-left: 0;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15% 3% 5%;
+}
+
+.profile-data {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
